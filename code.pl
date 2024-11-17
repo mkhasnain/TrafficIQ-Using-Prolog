@@ -10,4 +10,7 @@ traffic_condition(10, Cars, Condition) :- traffic(Condition, Cars).
 traffic_condition(30, Cars, Condition) :- traffic(Condition, Cars).
 traffic_condition(60, Cars, Condition) :- traffic(Condition, Cars).
 
+% Traffic advisories based on conditions
 advisory(low, "No Congestion. Clear Intersection Ahead").
+advisory(medium, "Moderate Traffic. Expect Some Delays").
+advisory(high, "High Traffic. Consider Alternate Routes").
