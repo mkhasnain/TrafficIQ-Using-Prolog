@@ -17,4 +17,7 @@ A Logical Inference System must be developed that utilises the traffic volume pr
 
 a) Creating a Prolog Knowledge Base including defining predicates and facts as listed below to represent different traffic conditions based on the machine learning model traffic volume predictions. 
 
-
+b) Defining the following facts for the knowledge base. 
+  (i) Low Traffic: Less than 5 cars. 
+  (ii) Medium Traffic: Between 6 to 20 cars. 
+  (iii) High Traffic: Greater than 21 cars. 
