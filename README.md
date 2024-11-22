@@ -24,3 +24,12 @@ b) Defining the following facts for the knowledge base.
   (ii) Medium Traffic: Between 6 to 20 cars. 
   
   (iii) High Traffic: Greater than 21 cars. 
+
+c) Implementing predicates to check traffic conditions at different time intervals (1 minute, 5 minutes, 10 minutes, 30 minutes and 60 minutes). 
+
+d) Defining Predicates to provide Traffic Advisories: 
+(i) Low Traffic: “No Congestion. Clear Intersection Ahead”.
+(ii) Moderate Traffic: “Moderate Traffic. Expect Some Delays”.
+(iii) High Traffic: “High Traffic. Consider Alternate Routes”.  
+ 
+ 
