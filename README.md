@@ -28,8 +28,11 @@ b) Defining the following facts for the knowledge base.
 c) Implementing predicates to check traffic conditions at different time intervals (1 minute, 5 minutes, 10 minutes, 30 minutes and 60 minutes). 
 
 d) Defining Predicates to provide Traffic Advisories: 
+
 (i) Low Traffic: “No Congestion. Clear Intersection Ahead”.
+
 (ii) Moderate Traffic: “Moderate Traffic. Expect Some Delays”.
+
 (iii) High Traffic: “High Traffic. Consider Alternate Routes”.  
- 
- 
+
+e) Simulating traffic volume predictions for a particular intersection to perform inferences and provide traffic advisories. 
