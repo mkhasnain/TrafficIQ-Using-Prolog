@@ -14,3 +14,7 @@ traffic_condition(60, Cars, Condition) :- traffic(Condition, Cars).
 advisory(low, "No Congestion. Clear Intersection Ahead").
 advisory(medium, "Moderate Traffic. Expect Some Delays").
 advisory(high, "High Traffic. Consider Alternate Routes").
+
+% Simulate traffic volume predictions for an intersection
+simulate_traffic(TimeInterval, Cars) :-
+    traffic_condition(TimeInterval, Cars, Condition),
