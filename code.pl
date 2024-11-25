@@ -18,3 +18,5 @@ advisory(high, "High Traffic. Consider Alternate Routes").
 % Simulate traffic volume predictions for an intersection
 simulate_traffic(TimeInterval, Cars) :-
     traffic_condition(TimeInterval, Cars, Condition),
+    advisory(Condition, Advisory),
+    format("At ~d minutes, with ~d cars: ~s", [TimeInterval, Cars, Advisory]).
