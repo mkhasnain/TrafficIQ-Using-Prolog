@@ -15,6 +15,11 @@ advisory(low, "No Congestion. Clear Intersection Ahead").
 advisory(medium, "Moderate Traffic. Expect Some Delays").
 advisory(high, "High Traffic. Consider Alternate Routes").
 
+% Dynamic traffic thresholds based on the time of day
+dynamic_traffic(morning, low, Cars) :- Cars >= 0, Cars =< 10.
+dynamic_traffic(morning, medium, Cars) :- Cars >= 11, Cars =< 30.
+dynamic_traffic(morning, high, Cars) :- Cars >= 31.
+
 % Simulate traffic volume predictions for an intersection
 simulate_traffic(TimeInterval, Cars) :-
     traffic_condition(TimeInterval, Cars, Condition),
