@@ -36,3 +36,10 @@ d) Defining Predicates to provide Traffic Advisories:
 (iii) High Traffic: “High Traffic. Consider Alternate Routes”.  
 
 e) Simulating traffic volume predictions for a particular intersection to perform inferences and provide traffic advisories. 
+
+f) Define predicates to dynamically adjust traffic thresholds and advisories based on typical levels of traffic for different times of the day. 
+
+g) Provide a simulation to demonstrate how this dynamic model operates and the results it produces. 
+
+In addition to the completion of the tasks described above, the following components must be provided with the artefact 3 submission. 
+
