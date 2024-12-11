@@ -15,9 +15,9 @@ These sub-systems are combined to form the AI Prediction and Inference Engine of
 
 A Logical Inference System must be developed that utilises the traffic volume predictions from the machine learning model. The steps of involved in developing this Logical Inference Sub-system must involve:
 
-a) Creating a Prolog Knowledge Base including defining predicates and facts as listed below to represent different traffic conditions based on the machine learning model traffic volume predictions. 
+**a) Creating a Prolog Knowledge Base including defining predicates and facts as listed below to represent different traffic conditions based on the machine learning model traffic volume predictions.**
 
-b) Defining the following facts for the knowledge base. 
+**b) Defining the following facts for the knowledge base.** 
   
   (i) Low Traffic: Less than 5 cars. 
   
@@ -25,9 +25,9 @@ b) Defining the following facts for the knowledge base.
   
   (iii) High Traffic: Greater than 21 cars. 
 
-c) Implementing predicates to check traffic conditions at different time intervals (1 minute, 5 minutes, 10 minutes, 30 minutes and 60 minutes). 
+**c) Implementing predicates to check traffic conditions at different time intervals (1 minute, 5 minutes, 10 minutes, 30 minutes and 60 minutes).**
 
-d) Defining Predicates to provide Traffic Advisories: 
+**d) Defining Predicates to provide Traffic Advisories:** 
 
 (i) Low Traffic: “No Congestion. Clear Intersection Ahead”.
 
@@ -35,11 +35,11 @@ d) Defining Predicates to provide Traffic Advisories:
 
 (iii) High Traffic: “High Traffic. Consider Alternate Routes”.  
 
-e) Simulating traffic volume predictions for a particular intersection to perform inferences and provide traffic advisories. 
+**e) Simulating traffic volume predictions for a particular intersection to perform inferences and provide traffic advisories.** 
 
-f) Define predicates to dynamically adjust traffic thresholds and advisories based on typical levels of traffic for different times of the day. 
+**f) Define predicates to dynamically adjust traffic thresholds and advisories based on typical levels of traffic for different times of the day.** 
 
-g) Provide a simulation to demonstrate how this dynamic model operates and the results it produces. 
+**g) Provide a simulation to demonstrate how this dynamic model operates and the results it produces.** 
 
 In addition to the completion of the tasks described above, the following components must be provided with the artefact 3 submission. 
 
